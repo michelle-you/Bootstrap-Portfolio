@@ -1,3 +1,3 @@
 # Bootstrap-Portfolio
 
-https://michellechanda.github.io/Bootstrap-Portfolio/index.html
+https://michelle-you.github.io/Bootstrap-Portfolio/

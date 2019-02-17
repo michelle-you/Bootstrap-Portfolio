@@ -1,0 +1,16 @@
+h1  {
+    font-family: 'Major Mono Display', monospace;
+}
+#banner {
+    background: linear-gradient(180deg, #B0FFEE, #E8B0FF);
+}
+.footer-margin {
+    height: 2em;
+    bottom: 0;
+    position: absolute;
+}
+.img-size {
+    display: block;
+    max-width: 25%;
+    height: auto;
+}

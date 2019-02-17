@@ -8,36 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Major+Mono+Display|Quicksand|Staatliches|Work+Sans" rel="stylesheet">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <style>
-        .top-buffer {
-            margin-top: 1em;
-        }
-
-    </style>
+    
 </head>
 
 <body>
     <header>
-        <div class="jumbotron jumbotron-fluid bg-info" id="banner">
-                <div class="container">
-                    <h1 class="display-4 text-white text-center">Michelle You</h1>
-                        <p class="lead"></p>
-                    </div>
-                    </div>
-                </div>
+        <div class="jumbotron jumbotron-fluid bg-info banner">
+            <h1 class="display-4 text-white text-center">Michelle You</h1>
+                <!-- <p class="lead"></p> -->
+            </div>
+        </div>
+          
         <nav class="navbar navbar-expand-sm navbar-light">
-                    <a class="navbar-brand text-light" href="index.html"></a>
-            
-            
+            <a class="navbar-brand text-light" href="index.html"></a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+                    <span class="navbar-toggler-icon"></span>
+            
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse nav-text" id="navbarNav" >
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -54,11 +49,20 @@
                     </li>
                 </ul>
 
+                 <!-- GitHub Button -->
+                    <a class="btn" href="https://github.com/michelle-you">
+                        <button type="button" class="btn btn-git">
+                            <i class="fab fa-github pr-1"></i></button></a>
+                    <!-- LinkedIn Button -->
+                    <a class="btn" href="https://www.linkedin.com/in/mcy/">
+                        <button type="button" class="btn btn-white">
+                            <i class="fab fa-linkedin-in pr-1"></i></button></a>
+                                
             </div>
         </nav>
     </header>
 
-    <div class="card col-lg-5 col-md-8 offset-lg-1 offset-md-1">
+    <div class="card col-lg-5 col-md-8 offset-lg-1 offset-md-1 body-text">
         <div class="card-body">
             <div class="card-header bg-white text-info">
                 <h1>Portfolio</h1>
@@ -66,34 +70,33 @@
             <br>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="card col-sm-5">
+                    <div class="card col-sm-5 text-center">
                         <img src="assets/images/technics-q-c-640-480-1.jpg" class="img-fluid">
                         <a href="https://michelle-you.github.io/Giphy-API/">Giphy API</a>
                     </div>
                     <div class="col-sm-2"></div>
-                    <div class="card col-sm-5">
+                    <div class="card col-sm-5 text-center">
                         <img src="assets/images/technics-q-c-640-480-2.jpg" class="img-fluid">
                         <a href="https://michelle-you.github.io/urban-english/">Urban English</a>
                     </div>
                 </div>
                 <div class="row top-buffer">
-                    <div class="card col-sm-5">
+                    <div class="card col-sm-5 text-center">
                         <img src="assets/images/technics-q-c-640-480-5.jpg" class="img-fluid">
                         <a href="https://michelle-you.github.io/train-scheduler/">Train Scheduler</a>
                     </div>
-                
                 </div>
             </div>
         </div>
 
 
 
-        <footer class="footer fixed-bottom bg-secondary">
+        <footer class="footer fixed-bottom bg-white">
             <div class="container text-center footer-width">
                 <span class="text-light">Copyright ©</span>
             </div>
         </footer>
-
+    
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
